@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Secrets</title>
+</head>
+<style>
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 100% 100%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  
+}
+
+</style>
+<body>
+  <div><h1>Secrets</h1></div>
+  <div><form action="/check" method="POST">
+    <label for="password">Password:</label>
+    <input type="text" id="password" name="password" required>
+    <input type="submit" value="Submit">
+  </form></div>
+  
+</body>
+
+</html>
