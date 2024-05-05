@@ -34,11 +34,7 @@ Welcome to the Web Development Projects Repository! This repository contains a c
 
 To run these projects locally, follow these steps:
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/web-development-projects.git
-```
+1. Clone the repository
 
 2. Navigate to the project directory:
 
